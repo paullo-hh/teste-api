@@ -1,5 +1,5 @@
 {
-  "name": "teste-api",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -7,10 +7,10 @@
   "type": "commonjs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:json": "json-server db.json"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3",
-    "react-native-dotenv": "^3.4.11"
+    "json-server": "^1.0.0-beta.3"
   }
 }
