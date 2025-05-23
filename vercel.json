@@ -3,9 +3,7 @@
   "functions": {
     "api/server.js": {
       "runtime": "nodejs18.x",
-      "includeFiles": [
-        "db.json"
-      ]
+      "includeFiles": "db.json"
     }
   },
   "routes": [
