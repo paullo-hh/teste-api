@@ -250,3 +250,4 @@ node_modules/react-native-dotenv/index.js
 node_modules/react-native-dotenv/LICENSE
 node_modules/react-native-dotenv/package.json
 node_modules/react-native-dotenv/README.md
+node_modules/.package-lock.json

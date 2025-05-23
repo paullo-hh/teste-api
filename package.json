@@ -1,17 +1,12 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
   "type": "commonjs",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:json": "json-server db.json"
+    "dev": "node api/index.js"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3",
-    "serverless-http": "^3.2.0"
+    "json-server": "^1.0.0-beta.3"
   }
 }
