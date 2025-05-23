@@ -1,0 +1,95 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "razaoSocial": "Supermercado Exemplo",
+      "cnpj": "12345678901234",
+      "cep": "12345678",
+      "cidade": "São Paulo",
+      "bairro": "Centro",
+      "endereco": "Rua Exemplo, 123",
+      "email": "contato@exemplo.com",
+      "email2": "financeiro@exemplo.com",
+      "telefone": "11999999999",
+      "senha": "senha123",
+      "senha2": "senha123",
+      "tipo": "DOADOR"
+    }
+  ],
+  "doacoes": [
+    {
+      "id": 1,
+      "fkUsuarioOng": 2,
+      "fkUsuarioDoador": 1,
+      "tipoProduto": "Arroz",
+      "quantidade": 50,
+      "validade": "2025-12-31T23:59:59",
+      "responsavelTransporte": "SIM",
+      "status": "DISPONÍVEL",
+      "dataEncerramento": null
+    },
+    {
+      "id": 2,
+      "type": "ARROZ",
+      "quantity": "5",
+      "perishable": "true",
+      "unity": "",
+      "validityDate": "30/05/2025",
+      "delivery": "retirar"
+    },
+    {
+      "id": 3,
+      "type": "FEIJAO ",
+      "quantity": "10",
+      "perishable": "false",
+      "unity": "",
+      "validityDate": "",
+      "delivery": "entregar"
+    },
+    {
+      "id": 4,
+      "type": "AGUA",
+      "quantity": "2",
+      "perishable": "false",
+      "unity": "litro",
+      "validityDate": "",
+      "delivery": "retirar"
+    },
+    {
+      "id": 5,
+      "type": "BLUSA",
+      "quantity": "1",
+      "perishable": "false",
+      "unity": "",
+      "validityDate": "",
+      "delivery": "retirar"
+    },
+    {
+      "id": 6,
+      "type": "FEIJAO CARIOCA",
+      "quantity": "2",
+      "perishable": "true",
+      "unity": "pc",
+      "validityDate": "25/05/2025",
+      "delivery": "retirar"
+    },
+    {
+      "id": 7,
+      "type": "ARROZ",
+      "quantity": "5",
+      "perishable": "true",
+      "unity": "pc",
+      "validityDate": "25/05/2025",
+      "delivery": "retirar"
+    }
+  ],
+  "solicitacoes": [
+    {
+      "id": 1,
+      "fkUsuarioOng": 2,
+      "tipoProduto": "Arroz",
+      "quantidade": 100,
+      "responsavelTransporte": "NAO"
+    }
+  ]
+}
