@@ -1,15 +1,14 @@
 {
-  "version": 2,
-  "functions": {
-    "api/server.js": {
-      "runtime": "nodejs18.x",
-      "includeFiles": "db.json"
-    }
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api/server.js"
-    }
-  ]
+    "version": 2,
+    "functions": {
+        "api/server.js": {
+            "includeFiles": "db.json"
+        }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/server.js"
+        }
+    ]
 }
